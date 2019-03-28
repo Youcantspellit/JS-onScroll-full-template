@@ -35,7 +35,7 @@ main {
 #mainTitle {
     position: absolute;
     top: 30%;
-    left: -150px;
+    /*left: -150px;*/
     transition: all 1s;
     color: white;
     font-size: 48px;
@@ -46,7 +46,7 @@ main {
 #mainPar {
     position: absolute;
     top: 30%;
-    left: -150px;
+    /*left: -150px;*/
     transition: all ease-in  2s;
     width: 52%;
     color: #737373;
