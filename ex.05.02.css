@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    font-family: Montserrat;
+} 
+header {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(196, 196, 196, 0.27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    z-index: 999;
+    
+}
+#headerTitle {
+    color: white;
+    font-size: 64px;
+    font-family: Montserrat;
+    font-weight: 900;
+    line-height: normal;
+    transition: all 1s;
+    /* text-align: center;  */
+    
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("headphones.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#mainTitle {
+    position: absolute;
+    top: 30%;
+    left: -150px;
+    transition: all 1s;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: normal;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+#mainPar {
+    position: absolute;
+    top: 30%;
+    left: -150px;
+    transition: all ease-in  2s;
+    width: 52%;
+    color: #737373;
+    font-size: 18px;
+    padding: 100px 40% 0 0;
+}
+/* -----------------gallery ---------------------- */
+#gallery {
+    width: 90%;
+    margin: 0 auto;
+}
+#gallery h3 {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+#d1, #d5{
+    background-image: url("cassette.jpeg");
+    background-position: center;
+    background-size: cover;
+   
+}
+#d2, #d6{
+    background-image: url("keybord.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+#d3, #d7{
+    background-image: url("mic1.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+#d4, #d8{
+    background-image: url("mic2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#d1{
+    transition: all 1s;
+    opacity: 0;
+}
+#d2{
+    transition: all 1.4s;
+    opacity: 0;
+}
+#d3{
+    transition: all 1.8s;
+    opacity: 0;
+}
+#d4{
+    transition: all 2.2s;
+    opacity: 0;
+}
+/* -----------------About Us---------------------- */
+#aboutUs{
+    position: relative;
+    width: 100vw;
+    height: 85vh;
+}
+#aboutUs h3 {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin: 50px 0;
+}
+#aboutContainer{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+#aboutPic{
+    position: relative;
+    background-image: url("screem.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 778px;
+    width: 100%;
+    display: inline;
+}
+#aboutText{
+    display: inline;
+    padding: 200px 200px; 
+    font-size: 18px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #D6BD6E;
+    /*  display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+footer h1 {
+    color: white;
+    font-size: 48px;
+    font-family: Montserrat;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center; 
+    /* display: inline-block; */
+    text-align: center;
+    padding-top: 50px; 
+    margin-bottom: 150px;
+}
+footer p{
+    text-align: center;
+}
+a {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    background-color: #C49401;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 90px;
+    color:white;
+    bottom: 190px;
+    left:90%;
+}
